@@ -1,5 +1,8 @@
 project:
   type: website
+  render: 
+    - index.qmd
+    - section*.qmd
 
 website:
   navbar:
@@ -7,9 +10,9 @@ website:
     left:
       - file: index.qmd
         text: "Pôle Données et analyses"
-      - file: description.qmd
+      - file: section1.qmd
         text: "Animations"
-      - file: documentation.qmd
+      - file: section2.qmd
         text: "Tutoriels"
   
 format:
