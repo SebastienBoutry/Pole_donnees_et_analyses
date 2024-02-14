@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  navbar:
+    logo: "images/logo_pole_donnees.png"
+    left:
+      - file: index.qmd
+        text: "Pôle Données et analyses"
+      - file: description.qmd
+        text: "Animations"
+      - file: documentation.qmd
+        text: "Tutoriels"
+  
+format:
+  html:
+    theme: slate
+    css: styles.css
+    toc: true
+
+editor: visual
+
