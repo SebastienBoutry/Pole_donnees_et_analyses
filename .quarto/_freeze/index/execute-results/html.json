@@ -1,0 +1,14 @@
+{
+  "hash": "ff8312e617d6ee97533bb2d2efb56380",
+  "result": {
+    "markdown": "---\ntitle: \"Pôle données et analyses\"\nsubtitle: \"de l'unité EABX\"\nauthor: Maud Pierre, Eric Quinton et Sébastien Boutry\nproject:\n  type: website\n\nabout:\n  template: trestles\n  image: logo_pole_donnees.png\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
