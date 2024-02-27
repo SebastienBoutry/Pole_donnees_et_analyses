@@ -39,6 +39,6 @@
     "href": "section2.html",
     "title": "Tutoriels",
     "section": "",
-    "text": "popopoopop"
+    "text": "Markdown\n\n\n\n\n\n\nLangage d’écriture pour le web mais pas que\n\n\n\n\n\n\n\n\nSQL\n\n\nR\n\n\n\n\n\n\nPré-requis\n\n\n\n\nAvoir installer R et l’IDE R-studio\nConnaissances de base en programmation\n\n\n\nLa première étape est d’organiser un répertoire de travail avec toutes les informations nécessaires. Travailler avec une structure standard facilite le suivi mais aussi le transfert vers d’autres agents.\n\n\n\n\n\n\n\n\nVous trouverez dans la librairie InraeThemes (citation), notamment la fonction new_analysis(“nom_projet”) qui permet structurer votre répertoire de tavail.\n\nInraeThemes::new_analysis(\"NOM_PROJET\")\n\n\n\n\n\n\n\n\n\n\n\n\nLa seconde étape est de remplir le README.rmd dans le repertoire nouvellement créer et le cahier de laboratoire (R/01_Notebook.Rmd ou R/01_Notebook.Qmd) tout au long de votre démarche scientifique.\n\nREADME.rmd et le cahier de laboratoire\nLe fichier README.rmd devra comprendre :\n\nl’objectif clairement défini\n\nLa description des choix techniques (exemple : la convention de nommage -objet, fichier-, les versions des librairies utilisées) et scientifiques (à l’aide d’une bibliographie) seront décris dans le cahier de laboratoire.\nCes deux documents décriront votre démarche scientifique du projet.\n\n\nR-project"
   }
 ]

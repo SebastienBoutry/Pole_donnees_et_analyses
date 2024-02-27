@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -109,7 +172,19 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div></div>
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#markdown" id="toc-markdown" class="nav-link active" data-scroll-target="#markdown">Markdown</a></li>
+  <li><a href="#sql" id="toc-sql" class="nav-link" data-scroll-target="#sql">SQL</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a>
+  <ul class="collapse">
+  <li><a href="#readme.rmd-et-le-cahier-de-laboratoire" id="toc-readme.rmd-et-le-cahier-de-laboratoire" class="nav-link" data-scroll-target="#readme.rmd-et-le-cahier-de-laboratoire">README.rmd et le cahier de laboratoire</a></li>
+  <li><a href="#r-project" id="toc-r-project" class="nav-link" data-scroll-target="#r-project">R-project</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -131,9 +206,83 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>popopoopop</p>
+<section id="markdown" class="level1">
+<h1>Markdown</h1>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Langage d’écriture pour le web mais pas que
+</div>
+</div>
+<div class="callout-body-container callout-body" data-apperance="simple">
+
+</div>
+</div>
+</section>
+<section id="sql" class="level1">
+<h1>SQL</h1>
+</section>
+<section id="r" class="level1">
+<h1>R</h1>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Pré-requis
+</div>
+</div>
+<div class="callout-body-container callout-body" data-apperance="simple">
+<ul>
+<li>Avoir installer R et l’IDE R-studio</li>
+<li>Connaissances de base en programmation</li>
+</ul>
+</div>
+</div>
+<p>La première étape est d’organiser un répertoire de travail avec toutes les informations nécessaires. Travailler avec une structure standard facilite le suivi mais aussi le transfert vers d’autres agents.</p>
+<div class="callout-tip callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Vous trouverez dans la librairie <a href="https://github.com/davidcarayon/InraeThemes">InraeThemes</a> (citation), notamment la fonction new_analysis(“nom_projet”) qui permet structurer votre répertoire de tavail.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>InraeThemes<span class="sc">::</span><span class="fu">new_analysis</span>(<span class="st">"NOM_PROJET"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/logo_hex_inrae_themes.png" height="100" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>La seconde étape est de remplir le README.rmd dans le repertoire nouvellement créer et le cahier de laboratoire (R/01_Notebook.Rmd ou R/01_Notebook.Qmd) tout au long de votre démarche scientifique.</p>
+<section id="readme.rmd-et-le-cahier-de-laboratoire" class="level3">
+<h3 class="anchored" data-anchor-id="readme.rmd-et-le-cahier-de-laboratoire">README.rmd et le cahier de laboratoire</h3>
+<p>Le fichier README.rmd devra comprendre :</p>
+<ul>
+<li>l’objectif clairement défini</li>
+</ul>
+<p>La description des choix techniques (exemple : la convention de nommage -objet, fichier-, les versions des librairies utilisées) et scientifiques (à l’aide d’une bibliographie) seront décris dans le cahier de laboratoire.</p>
+<p>Ces deux documents décriront votre démarche scientifique du projet.</p>
+</section>
+<section id="r-project" class="level3">
+<h3 class="anchored" data-anchor-id="r-project">R-project</h3>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
