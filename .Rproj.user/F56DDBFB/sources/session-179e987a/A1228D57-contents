@@ -1,0 +1,31 @@
+---
+title: "Titre de l'analyse"
+subtitle : "Sous titre"
+author: "Auteur"
+date: "Dernière M.A.J : `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_notebook:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+    toc_depth: 3
+    number_sections: true
+---
+
+# Intro
+
+# Conclusion
+
+Pour conclure :
+
+# R session info {-}
+
+Pensez à inclure cette section afin d'indiquer l'état de votre machine lorsque vous avez réalisé cette analyse.
+
+```{r session info}
+xfun::session_info()
+```
+
+# References {-}
+

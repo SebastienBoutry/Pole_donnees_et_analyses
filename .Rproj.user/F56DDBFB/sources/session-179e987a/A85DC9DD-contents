@@ -1,0 +1,59 @@
+---
+title: "Tutoriels"
+margin-header: |
+  ![Pôle Données et analyses](images/logo_pole_donnees.png){height=150}
+---
+
+
+# Markdown
+
+::: {.callout-note apperance="simple"}
+## Langage d'écriture pour le web mais pas que
+
+:::
+
+# SQL
+
+# R
+
+::: {.callout-important apperance="simple"}
+## Pré-requis
+- Avoir installer R et l'IDE R-studio
+- Connaissances de base en programmation
+:::
+
+La première étape est d'organiser un répertoire de travail avec toutes les informations nécessaires. Travailler avec une structure standard facilite le suivi mais aussi le transfert vers d'autres agents. 
+
+::: {.callout-tip appearance="simple"}
+:::: {.columns}
+::: {.column width="70%"}
+Vous trouverez dans la librairie [InraeThemes](https://github.com/davidcarayon/InraeThemes) (citation), notamment la fonction new_analysis("nom_projet") qui permet structurer votre répertoire de tavail. 
+
+```{r, eval=FALSE}
+InraeThemes::new_analysis("NOM_PROJET")
+```
+:::
+
+::: {.column width="30%"}
+![](images/logo_hex_inrae_themes.png){height=100 fig-align="center"}
+:::
+::::
+:::
+
+La seconde étape est de remplir le README.rmd dans le repertoire nouvellement créer et le cahier de laboratoire (R/01_Notebook.Rmd ou R/01_Notebook.Qmd) tout au long de votre démarche scientifique.
+
+### README.rmd et le cahier de laboratoire
+
+Le fichier README.rmd devra comprendre :
+
+- l'objectif clairement défini
+
+La description des choix techniques (exemple : la convention de nommage -objet, fichier-, les versions des librairies utilisées) et scientifiques (à l'aide d'une bibliographie) seront décris dans le cahier de laboratoire. 
+
+Ces deux documents décriront votre démarche scientifique du projet.
+
+### R-project
+
+
+
+
